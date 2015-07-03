@@ -709,3 +709,51 @@ h2{text-transform: uppercase; font-size:14px;}
 * {
 	/*background: RGBA(255,0,0,0.05);*/
 }
+
+#header {
+	height: 140px;
+}
+ 
+#logo {
+	display: inline-block;
+	float: left;
+}
+
+
+#chlogo {
+	display: block;
+	width: auto;
+	float: right;
+}
+
+@media screen and (max-width: 500px) {
+	#logo {
+		display: block;
+		position: relative;
+		margin: auto;
+
+		float: none;
+	}
+
+
+#header {
+	height: auto;
+}
+
+#chlogo {
+	position: relative;
+	margin: auto;
+	
+	display: block;
+	width: auto;
+	float: none;
+	text-align: center;
+}
+
+
+#chlogo img {
+	margin: auto;
+	position: relative;
+}
+
+}
